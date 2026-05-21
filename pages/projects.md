@@ -92,7 +92,7 @@ Sélection de projets réalisés dans le cadre de mon Master 2 Géomatique (G2M)
 
 **Technologies :** Python (pandas, geopandas, scikit-learn), R (FactoMineR, factoextra), ArcGIS Experience Builder, QGIS, Jupyter Notebook
 
-**Livrables :** [Site web du projet](https://hoperror.github.io/Tiques-et-paysage---Projet-tutor-G2M/) | [Dépôt GitHub](https://github.com/hoperror/Tiques-et-paysage---Projet-tutor-G2M)
+**Livrables :** [Site web du projet](https://experience.arcgis.com/experience/15c60958cc674cf49088fa3982ebb3b9?draft=true) | [Dépôt GitHub](https://hoperror.github.io/Tiques-et-paysage---Projet-tutor-G2M/)
 
 ---
 
@@ -153,10 +153,10 @@ Sélection de projets réalisés dans le cadre de mon Master 2 Géomatique (G2M)
 
 ## 🦟 Dengue à Girardot (Colombie) — Analyse spatio-temporelle des clusters épidémiques
 
-<!-- ```{image} images/dengue_girardot.png
+```{image} images/dengue_girardot.png
 :alt: Clusters épidémiques de dengue à Girardot
 :width: 100%
-``` -->
+```
 
 **Contexte :** Projet réalisé dans le cadre du cours d'Analyse spatiale en Master 2 G2M (Université Paris 8), en binôme. L'étude porte sur la transmission de la dengue à Girardot (Colombie), ville de 150 000 habitants en climat tropical, à partir de 2 730 cas géocodés issus du système national de surveillance SIVIGILA (2010-2017).
 

@@ -1,83 +1,100 @@
+/* ============================================
+   Portfolio SIG - Lucas Ravelonjaka
+   Custom CSS
+   ============================================ */
+
+/* --- Couleur d'accent cohérente avec le CV --- */
+:root {
+  --color-accent: #2b6cb0;
+  --color-accent-dark: #1a365d;
+  --color-accent-light: #ebf2fa;
+}
+
+/* --- Masquer le bouton de téléchargement par défaut --- */
 .myst-fm-downloads-dropdown {
   display: none !important;
 }
 
+/* --- Tables : première colonne sans retour à la ligne --- */
 table td:first-child,
 table th:first-child {
   white-space: nowrap;
 }
 
+/* --- Liens : couleur d'accent --- */
+article a {
+  color: var(--color-accent);
+  transition: color 0.2s ease;
+}
+article a:hover {
+  color: var(--color-accent-dark);
+}
+
+/* --- Images des projets : coins arrondis et ombre légère --- */
+article img {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+article img:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+/* --- Cards : effet hover --- */
+.myst-card {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  border-radius: 8px !important;
+  overflow: hidden;
+}
+.myst-card:hover {
+  box-shadow: 0 6px 20px rgba(43, 108, 176, 0.15);
+  transform: translateY(-3px);
+}
+
+/* --- Headings h2 : ligne d'accent en dessous --- */
+article h2 {
+  padding-bottom: 0.4rem;
+  border-bottom: 3px solid var(--color-accent);
+  display: inline-block;
+}
+
+/* --- Séparateurs hr : plus subtils --- */
+article hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--color-accent), transparent);
+  margin: 2.5rem 0;
+}
+
+/* --- Grid cards sur la page d'accueil : centrage texte --- */
+#compétences-clés + .myst-grid .myst-card-body,
+#projets-sig + .myst-grid .myst-card-body {
+  text-align: center;
+}
+
+/* --- Footer : style sobre --- */
+.myst-footer {
+  border-top: 1px solid rgba(43, 108, 176, 0.2);
+}
+
+/* --- Giscus comments (si réactivé un jour) --- */
 #giscus-comments {
   max-width: 100% !important;
   padding: 0 !important;
 }
-
 .giscus,
 .giscus-frame {
   width: 100% !important;
 }
 
-#featured-projects + .myst-grid .myst-card-footer,
-#featured-projects + .myst-grid .myst-card-title,
-.sponsors-grid .myst-card-footer,
-.sponsors-grid .myst-card-title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 1rem !important;
-  padding-right: 1rem !important;
-  text-align: center !important;
-  white-space: nowrap;
-}
-
-#featured-projects + .myst-grid .myst-card-footer {
-  flex-direction: column;
-  white-space: normal;
-}
-
-#featured-projects + .myst-grid .myst-card-footer img {
-  height: 20px;
-  vertical-align: middle;
-  margin: 2px 2px 0 2px;
-}
-
-#featured-projects + .myst-grid .myst-card-footer > *,
-#featured-projects + .myst-grid .myst-card-title > *,
-.sponsors-grid .myst-card-footer > *,
-.sponsors-grid .myst-card-title > * {
-  text-align: center !important;
-}
-
-#featured-projects + .myst-grid .myst-card-footer p,
-#featured-projects + .myst-grid .myst-card-footer strong,
-.sponsors-grid .myst-card-footer p,
-.sponsors-grid .myst-card-footer strong {
-  margin: 0 auto;
-}
-
-.sponsors-grid .myst-card-body,
-#featured-projects + .myst-grid .myst-card-body {
-  padding-top: 0.75rem !important;
-  padding-bottom: 0.75rem !important;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.sponsors-grid .myst-card-body img,
-#featured-projects + .myst-grid .myst-card-body img {
-  margin-top: 0.25rem !important;
-  margin-bottom: 0.25rem !important;
-}
-
+/* --- Blog post cards (si réactivé un jour) --- */
 #posts ~ .myst-grid .myst-card-header,
 #posts ~ * .myst-grid .myst-card-header {
   padding: 0.5rem !important;
   border-bottom: none !important;
   background: transparent !important;
 }
-
 #posts ~ .myst-grid .myst-card-header img,
 #posts ~ * .myst-grid .myst-card-header img {
   display: block;
