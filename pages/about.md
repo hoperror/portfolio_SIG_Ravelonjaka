@@ -1,33 +1,66 @@
 ---
-title: About
-description: Biography, education, and academic appointments of Jane Doe.
+title: À propos
+description: Parcours, formation, expériences et compétences de Lucas Ravelonjaka, géomaticien.
 keywords:
-  - About
-  - Biography
-  - Education
-  - Appointments
+  - À propos
+  - Parcours
+  - Formation
+  - Expériences
+  - Compétences
 ---
 
-# About
+# À propos
 
-Dr. Jane Doe is an Assistant Professor in the Department of Computer Science at Example University. Her research focuses on developing open-source tools for data science and machine learning. She is the creator and maintainer of several widely used open-source Python packages. Dr. Doe's work bridges software engineering, data science, and artificial intelligence to make large-scale data analytics more accessible, reproducible, and intelligent.
-
----
-
-## Education
-
-| Year | Degree | Institution | Dissertation/Thesis |
-|------|--------|-------------|---------------------|
-| 2020 | **Ph.D.** in Computer Science | Example University, USA | *Scalable machine learning for large-scale data analysis* |
-| 2016 | **M.S.** in Computer Science | Example University, USA | *Distributed computing frameworks for data-intensive applications* |
-| 2014 | **B.S.** in Computer Science | Example College, USA | *Efficient algorithms for graph processing* |
+Géomaticien spécialisé en webmapping et développement SIG, fort de deux ans d'expérience au service de la gestion portuaire. Je maîtrise l'ensemble de la chaîne de la donnée, de l'administration de bases de données au déploiement d'outils cartographiques interactifs. Rigoureux, curieux et doté d'une solide expérience en milieu public, je suis disponible dès septembre 2026 pour accompagner vos projets SIG avec réactivité et précision.
 
 ---
 
-## Appointments
+## Formation
 
-| Period | Position |
-|--------|----------|
-| 2023--present | Assistant Professor, Department of Computer Science, Example University |
-| 2020--2023 | Postdoctoral Researcher, Data Science Lab, Example Institute |
-| 2018--2020 | Research Assistant, Department of Computer Science, Example University |
+| Période | Diplôme | Établissement |
+|---------|---------|---------------|
+| 2024 – 2026 | **Master Géomatique, Géodécisionnel, Géomarketing et Multimédia (G2M)** | Université Paris 8 Vincennes Saint-Denis |
+| 2021 – 2024 | **Licence Géographie et Aménagement** | CY Paris Université, Université Sorbonne Paris 4 |
+| 2017 – 2020 | **Licence Sciences de l'éducation, spé. Histoire-Géographie** | École Normale Supérieure, Madagascar |
+
+---
+
+## Expériences professionnelles
+
+| Période | Poste | Structure |
+|---------|-------|-----------|
+| Août 2024 – Août 2026 | **Géomaticien apprenti** | Port de Boulogne-sur-Mer—Calais, Région Hauts-de-France |
+| Mars 2024 – Sept. 2024 | **Chargé d'étude stagiaire** | Direction des données, des études et des connaissances, Conseil départemental de la Seine-Saint-Denis |
+| | **Géomaticien** | Observatoire EPT Plaine Commune |
+| | **Chargé d'études stagiaire** | Observatoire EPT Plaine Commune |
+
+---
+
+## Compétences
+
+| Domaine | Technologies |
+|---------|-------------|
+| **Web SIG** | HTML, JavaScript, CSS, PHP, Django |
+| **Analyse** | Python (numpy, pandas, geopandas, folium, jupyter), R (sf, mapsf, rmarkdown) |
+| **Bases de données** | SQL, PostgreSQL, PostGIS |
+| **Logiciels** | QGIS, Suite ESRI, FME, Conda |
+| **Gestion de projet** | Scrum, Agile, Notion, Wrike |
+
+---
+
+## Langues
+
+| Langue | Niveau |
+|--------|--------|
+| Français | Bilingue |
+| Malgache | Langue maternelle |
+| Anglais | B1 |
+| Russe | Bases |
+
+---
+
+## Centres d'intérêt
+
+- Sport : volleyball, basketball, tennis de table
+- Lecture : roman historique, vulgarisation scientifique
+- Engagement bénévole : responsable scout EEUdF (BAFA), secouriste en santé mentale (certificat PSSM)

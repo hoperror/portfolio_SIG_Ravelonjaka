@@ -244,22 +244,19 @@ def gen_preamble():
 
 #show: resume.with(
   author: (
-    firstname: "Jane",
-    lastname: "Doe",
-    email: "jane.doe@example.com",
-    phone: "(+1) 234-567-8901",
-    homepage: "https://example.com",
-    github: "username",
-    address: "123 Science Building, Example University, Anytown, ST 12345",
+    firstname: "Lucas",
+    lastname: "Ravelonjaka",
+    email: "lucasravelonjaka@gmail.com",
+    phone: "+33 6 63 80 74 97",
+    homepage: "https://hoperror.github.io/portfolio_SIG_Ravelonjaka/",
+    github: "hoperror",
+    address: "51 rue de Stalingrad, 78500 Sartrouville",
     positions: (
-      "Assistant Professor",
-      "Data Scientist",
+      "Ingénieur Géomaticien",
+      "Chargé d'étude SIG"
     ),
     custom: (
-      (text: "username", icon: "twitter", link: "https://twitter.com/username"),
-      (text: "Jane Doe", icon: "linkedin", link: "https://www.linkedin.com/in/username"),
-      (text: "Jane Doe", icon: "google-scholar", link: "https://scholar.google.com"),
-      (text: "0000-0000-0000-0000", icon: "orcid", link: "https://orcid.org/0000-0000-0000-0000"),
+      (text: "Lucas Ravelonjaka", icon: "linkedin", link: "https://www.linkedin.com/in/lucasravelonjaka"),
     ),
   ),
   profile-picture: none,
@@ -275,7 +272,7 @@ def gen_preamble():
 #set heading(bookmarked: true)
 
 // Set PDF document title
-#set document(title: "Jane Doe - CV")"""
+#set document(title: "Lucas Ravelonjaka - CV")"""
 
 
 def gen_education(about):
