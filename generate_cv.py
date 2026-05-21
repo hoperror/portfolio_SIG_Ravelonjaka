@@ -624,31 +624,10 @@ def main():
     pages = base / "pages"
 
     about = read_file(pages, "about.md")
-    research = read_file(pages, "research.md")
-    software = read_file(pages, "software.md")
-    teaching = read_file(pages, "teaching.md")
-    talks = read_file(pages, "talks.md")
-    awards = read_file(pages, "awards.md")
-    services = read_file(pages, "services.md")
 
     sections = [
         gen_preamble(),
         gen_education(about),
-        gen_appointments(about),
-        gen_research_areas(research),
-        gen_patents(research),
-        gen_awards(awards),
-        gen_books(research),
-        gen_publications(research),
-        gen_grants(research),
-        gen_software(software),
-        gen_teaching(teaching),
-        gen_mentoring(teaching),
-        gen_workshops(talks),
-        gen_invited_talks(talks),
-        gen_conf_proceedings(talks),
-        gen_conf_presentations(talks),
-        gen_services(services),
     ]
 
     output = "\n\n".join(s for s in sections if s)
