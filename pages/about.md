@@ -29,9 +29,9 @@ Géomaticien spécialisé en webmapping et développement SIG, fort de deux ans 
 
 | Période | Poste | Structure |
 |---------|-------|-----------|
-| Août 2024 – Août 2026 | **Géomaticien apprenti** | Port de Boulogne-sur-Mer—Calais, Région Hauts-de-France |
-| Mars 2024 – Sept. 2024 | **Chargé d'étude stagiaire** | Direction des données, des études et des connaissances, Conseil départemental de la Seine-Saint-Denis |
-| | **Géomaticien** | Observatoire EPT Plaine Commune |
+| 08.2024 – 08.2026 | **Géomaticien apprenti** | Port de Boulogne-sur-Mer—Calais, Région Hauts-de-France |
+| 03.2024 – 09.2024 | **Chargé d'étude stagiaire** | Direction des données, des études et des connaissances, Conseil départemental de la Seine-Saint-Denis |
+| 06.2023 - 07.2023 | **Géomaticien** | Observatoire EPT Plaine Commune |
 | | **Chargé d'études stagiaire** | Observatoire EPT Plaine Commune |
 
 ---

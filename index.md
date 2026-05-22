@@ -1,6 +1,6 @@
 ---
 title: Lucas Ravelonjaka
-subtitle: Géomaticien
+subtitle: Ingénieur Géomaticien
 description: Portfolio SIG de Lucas Ravelonjaka, géomaticien spécialisé en webmapping et développement SIG.
 ---
 
@@ -74,9 +74,9 @@ Développement d'un outil en ligne pour le suivi des opérations d'aménagement 
 Portail cartographique pour le suivi de colonies de mouettes et goélands — ArcGIS Online, Experience Builder
 :::
 
-:::{card} Veille 3D 📐
+:::{card} Tiques et paysages 🕷️
 :link: pages/projects
-Étude sur le passage de la cartographie 2D à 3D pour les réseaux portuaires
+Analyse multivariée des paysages associés aux piqûres de tiques en France — Python, R, Experience Builder
 :::
 
 ::::
@@ -88,6 +88,6 @@ Portail cartographique pour le suivi de colonies de mouettes et goélands — Ar
 ## Parcours
 
 - **2024 – 2026** — Géomaticien apprenti, Port de Boulogne-sur-Mer—Calais, Région Hauts-de-France
-- **2024** — Chargé d'étude stagiaire, Conseil départemental de la Seine-Saint-Denis
 - **2024 – 2026** — Master G2M, Université Paris 8
-- **2021 – 2024** — Licence Géographie et Aménagement, CY Paris Université
+- **2024** — Chargé d'étude stagiaire, Conseil départemental de la Seine-Saint-Denis
+- **2021 – 2024** — Licence Géographie et Aménagement, CY Paris Université & Sorbonne Université Paris IV

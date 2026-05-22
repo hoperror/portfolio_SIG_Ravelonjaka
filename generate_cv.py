@@ -125,7 +125,7 @@ def gen_preamble():
     email: "lucasravelonjaka@gmail.com",
     address: [Île-de-France (mobile)],
     phone: "+33 6 63 80 74 97",
-    position: ("Géomaticien",),
+    position: ("Ingénieur Géomaticien",),
     website: "https://hoperror.github.io/portfolio_SIG_Ravelonjaka/",
     github: "hoperror",
     linkedin: "lucasravelonjaka",
@@ -157,7 +157,7 @@ def gen_sidebar_content(about):
             profil_text = about[start:].strip()
         if profil_text:
             lines.append("  = Profil")
-            lines.append(f"  {typst_escape(profil_text)}")
+            lines.append(f" {typst_escape(profil_text)}")
             lines.append("")
 
     # --- Contact ---
@@ -236,22 +236,22 @@ def gen_main_content(about):
     experiences = [
         {
             "title": "Géomaticien apprenti",
-            "date": "août 2024 – août 2026",
+            "date": "08.2024 – 08.2026",
             "institution": "Port de Boulogne-sur-Mer—Calais, Région Hauts-de-France",
         },
         {
             "title": "Chargé d'étude stagiaire",
-            "date": "mars 2024 – sept. 2024",
+            "date": "03.2024 – 09.2024",
             "institution": "Direction des données, des études et des connaissances, Conseil départemental de la Seine-Saint-Denis",
         },
         {
-            "title": "Géomaticien",
-            "date": "juil. 2023 – sept. 2023",
-            "institution": "Observatoire EPT Plaine Commune",
+            "title": "Agent logistique-livreur nocturne en distribution optique",
+            "date": "11.2023 – 02.2025",
+            "institution": "CIBLEX, Roissy-en-France",
         },
         {
-            "title": "Chargé d'études stagiaire",
-            "date": "juin 2023 – juil. 2023",
+            "title": "Géomaticien",
+            "date": "07.2023 – 09.2023",
             "institution": "Observatoire EPT Plaine Commune",
         },
     ]
