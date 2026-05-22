@@ -40,9 +40,10 @@ site:
     style: custom.css
     folders: true
   template: book-theme
-  parts:
+parts:
     primary_sidebar_footer: ''
     footer: |
       [CV (PDF)](cv.pdf) |
       [GitHub](https://github.com/hoperror) |
-      [LinkedIn](https://www.linkedin.com/in/lucasravelonjaka)
+      [LinkedIn](https://www.linkedin.com/in/lucasravelonjaka) |
+      Made with [MyST](https://mystmd.org/)
