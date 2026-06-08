@@ -15,7 +15,7 @@ Sélection de projets réalisés dans le cadre de mon Master 2 Géomatique (G2M)
 
 ---
 
-## 🚢 Outil cartographique portuaire — Suivi des interventions sur le domaine portuaire
+## Outil cartographique portuaire : Suivi des interventions sur le domaine portuaire
 
 ```{image} images/interventions.png
 :alt: Outil cartographique portuaire
@@ -40,7 +40,7 @@ Sélection de projets réalisés dans le cadre de mon Master 2 Géomatique (G2M)
 
 ---
 
-## 🐦 Portail Laridés — Suivi des colonies de mouettes et goélands
+## Portail Laridés : Suivi des colonies de mouettes et goélands
 
 ```{image} images/lariport.png
 :alt: Portail Laridés
@@ -64,7 +64,7 @@ Sélection de projets réalisés dans le cadre de mon Master 2 Géomatique (G2M)
 
 ---
 
-## 🦟 Tiques et paysages français — Analyse multivariée des signalements de piqûres
+## Tiques et paysages français : Analyse multivariée des signalements de piqûres
 
 ```{image} images/tiques_paysages.jpg
 :alt: Carte des typologies paysagères des signalements de tiques
@@ -96,7 +96,7 @@ Sélection de projets réalisés dans le cadre de mon Master 2 Géomatique (G2M)
 
 ---
 
-## 📹 Vidéoprotection et délinquance de rue — Analyse SIG sur Grand Paris Seine Ouest
+## Vidéoprotection et délinquance de rue : Analyse SIG sur Grand Paris Seine Ouest
 
 ```{image} images/videoprotection_gpso.png
 :alt: Carte bivariée vidéoprotection et délinquance GPSO
@@ -123,7 +123,7 @@ Sélection de projets réalisés dans le cadre de mon Master 2 Géomatique (G2M)
 
 ---
 
-## 🌍 Simulation "Out of Africa" — Modélisation multi-agents de la dispersion humaine
+## Simulation "Out of Africa" : Modélisation multi-agents de la dispersion humaine
 
 ```{image} images/out_of_africa.gif
 :alt: Simulation Out of Africa
@@ -151,7 +151,7 @@ Sélection de projets réalisés dans le cadre de mon Master 2 Géomatique (G2M)
 
 ---
 
-## 🦟 Dengue à Girardot (Colombie) — Analyse spatio-temporelle des clusters épidémiques
+## Dengue à Girardot (Colombie) : Analyse spatio-temporelle des clusters épidémiques
 
 ```{image} images/dengue_girardot.png
 :alt: Clusters épidémiques de dengue à Girardot
@@ -176,7 +176,7 @@ Sélection de projets réalisés dans le cadre de mon Master 2 Géomatique (G2M)
 
 ---
 
-## ✈️ Application métier ATE — Outil de checking des vols
+## Application métier ATE : Outil de checking des vols
 
 ```{image} images/ate_check.png
 :alt: Application de checking des vols ATE
@@ -199,7 +199,7 @@ Sélection de projets réalisés dans le cadre de mon Master 2 Géomatique (G2M)
 
 ---
 
-## 🪵 Blog cartographique Sticknation — Plateforme d'inventaire communautaire
+## Blog cartographique Sticknation : Plateforme d'inventaire communautaire
 
 <!-- ```{image} images/sticknation.png
 :alt: Blog cartographique Sticknation

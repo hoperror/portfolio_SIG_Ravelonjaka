@@ -38,25 +38,13 @@ Master Géomatique, Géodécisionnel, Géomarketing et Multimédia (G2M) — Uni
 
 ## Compétences clés
 
-::::{grid} 2 2 3 4
-
-:::{card} Web SIG 🌐
-HTML, JavaScript, CSS, PHP, Django
-:::
-
-:::{card} Analyse & traitement 📊
-Python (pandas, geopandas, folium), R (sf, mapsf)
-:::
-
-:::{card} Bases de données 🗄️
-SQL, PostgreSQL, PostGIS
-:::
-
-:::{card} Logiciels SIG 🗺️
-QGIS, Suite ESRI, FME
-:::
-
-::::
+| Domaine | Technologies |
+|---------|-------------|
+| **Web SIG** | HTML, JavaScript, CSS, PHP, Django |
+| **Analyse** | Python (numpy, pandas, geopandas, folium, jupyter), R (sf, mapsf, rmarkdown) |
+| **Bases de données** | SQL, PostgreSQL, PostGIS |
+| **Logiciels** | QGIS, Suite ESRI, FME, Conda |
+| **Gestion de projet** | Scrum, Agile, Notion, Wrike |
 
 ---
 
@@ -64,19 +52,25 @@ QGIS, Suite ESRI, FME
 
 ::::{grid} 2 2 3 3
 
-:::{card} Outil cartographique portuaire 🚢
+:::{card} Outil cartographique portuaire
 :link: pages/projects
-Développement d'un outil en ligne pour le suivi des opérations d'aménagement — Django, PostgreSQL
+Développement d'un outil en ligne pour le suivi des opérations d'aménagement sur le domaine portuaire.
+
+*Django, PostgreSQL, PostGIS, Leaflet.js*
 :::
 
-:::{card} Portail biodiversité 🐦
+:::{card} Portail Laridés
 :link: pages/projects
-Portail cartographique pour le suivi de colonies de mouettes et goélands — ArcGIS Online, Experience Builder
+Portail cartographique pour le suivi de colonies de mouettes et goélands sur le port de Boulogne-sur-Mer.
+
+*ArcGIS Online, Experience Builder*
 :::
 
-:::{card} Tiques et paysages 🕷️
+:::{card} Tiques et paysages français
 :link: pages/projects
-Analyse multivariée des paysages associés aux piqûres de tiques en France — Python, R, Experience Builder
+Analyse multivariée des paysages associés aux piqûres de tiques en France (ACP, k-means).
+
+*Python, R, QGIS, Experience Builder*
 :::
 
 ::::
@@ -87,7 +81,19 @@ Analyse multivariée des paysages associés aux piqûres de tiques en France —
 
 ## Parcours
 
-- **2024 – 2026** — Géomaticien apprenti, Port de Boulogne-sur-Mer—Calais, Région Hauts-de-France
-- **2024 – 2026** — Master G2M, Université Paris 8
-- **2024** — Chargé d'étude stagiaire, Conseil départemental de la Seine-Saint-Denis
-- **2021 – 2024** — Licence Géographie et Aménagement, CY Paris Université & Sorbonne Université Paris IV
+::::{grid} 1 1 2 2
+
+:::{card} Expériences professionnelles
+- **2024 - 2026** | Géomaticien apprenti, Port de Boulogne-sur–MerCalais
+- **2024** | Chargé d'étude stagiaire, Conseil départemental 93
+- **2023** | Géomaticien, Observatoire EPT Plaine Commune
+:::
+
+:::{card} Formation
+- **2024 - 2026** | Master G2M, Université Paris 8
+- **2021 - 2024** | Licence Géographie, CY Paris & Sorbonne Paris IV
+- **2017 - 2020** | Licence Sciences de l'éducation, ENS Antananarivo
+:::
+
+::::
+

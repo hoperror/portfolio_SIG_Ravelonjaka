@@ -108,3 +108,9 @@ article hr {
 .myst-home-link span {
   display: none !important;
 }
+
+/* --- Outils dans les cards en couleur accent --- */
+.myst-card em {
+  color: var(--color-accent);
+  font-size: 0.9em;
+}

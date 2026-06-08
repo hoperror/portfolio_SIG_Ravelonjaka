@@ -11,7 +11,7 @@ N'hésitez pas à me contacter pour toute opportunité professionnelle, collabor
 
 **Téléphone :** +33 6 63 80 74 97
 
-**Localisation :** Île-de-France (mobile) — Disponible dès septembre 2026
+**Localisation :** Île-de-France (mobile) - Disponible dès septembre 2026
 
 ## Retrouvez-moi
 
