@@ -338,19 +338,22 @@ def gen_main_content(about):
         lines.append("")
 
     # --- 4. Compétences (en bas du corps principal) ---
-    section = extract_section(about, "## Compétences")
-    rows = parse_table(section)
-    if rows:
-        lines.append("  = Compétences")
-        lines.append("")
-        for row in rows:
-            domaine = strip_markdown(row.get("Domaine", ""))
-            technologies = strip_markdown(row.get("Technologies", ""))
-            tech_list = [t.strip() for t in technologies.split(",")]
-            tech_quoted = ", ".join(f'"{t}"' for t in tech_list if t)
-            lines.append(f"  *{domaine}* :")
-            lines.append(f"  #item-pills(({tech_quoted},))")
-            lines.append("")
+    lines.append("  = Compétences")
+    lines.append("")
+
+    competences = {
+        "Web SIG": ["HTML/CSS", "JavaScript", "PHP", "Django", "Leaflet.js"],
+        "Analyse": ["Pandas", "GeoPandas", "Folium", "Jupyter", "R (sf, mapsf)"],
+        "Bases de données": ["PL/SQL", "PostgreSQL", "PostGIS"],
+        "Logiciels SIG": ["QGIS", "ArcGIS Pro", "ArcGIS Online", "Experience Builder", "FME", "Geoconcept"],
+        "Gestion de projet": ["Scrum", "Agile", "Notion", "Wrike"],
+    }
+
+    for domaine, techs in competences.items():
+        tech_quoted = ", ".join(f'"{t}"' for t in techs)
+        lines.append(f"  *{domaine}* :")
+        lines.append(f"  #item-pills(({tech_quoted},))")
+        lines.append("") 
 
     return "\n".join(lines)
 

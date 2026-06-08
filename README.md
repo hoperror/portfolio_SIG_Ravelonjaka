@@ -38,7 +38,7 @@ Ce site rassemble mes projets SIG, mon parcours et mes compétences. Un CV au fo
 
 ---
 
-## Crédits — Template MyST CV
+## Crédits - Template MyST CV
 
 Ce site est construit à partir du [MyST CV Template](https://github.com/opengeos/myst-cv-template) de [Qiusheng Wu](https://gishub.org/), un template open source pour créer des sites CV académiques avec [MyST Markdown](https://mystmd.org/) et génération automatique de PDF via [Typst](https://typst.app/).
 
