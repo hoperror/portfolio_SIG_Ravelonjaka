@@ -49,12 +49,12 @@ jobs:
       - name: Download fonts
         run: |
           mkdir -p fonts
-          # Source Sans Pro (body font)
-          curl -sL "https://github.com/adobe-fonts/source-sans-pro/releases/download/3.006R/source-sans-pro-3.006R.zip" -o source-sans-pro.zip
-          unzip -o source-sans-pro.zip -d /tmp/ssp
-          cp /tmp/ssp/source-sans-pro-3.006R/OTF/*.otf fonts/
+          # Source Sans 3 (body font)
+          curl -fSL "https://github.com/adobe-fonts/source-sans/releases/download/3.052R/OTF-source-sans-3.052R.zip" -o source-sans.zip
+          unzip -o source-sans.zip -d /tmp/ssp
+          find /tmp/ssp -name "*.otf" -exec cp {} fonts/ \;
           # Font Awesome 6 (icons)
-          curl -sL "https://use.fontawesome.com/releases/v6.7.2/fontawesome-free-6.7.2-desktop.zip" -o fa.zip
+          curl -fSL "https://use.fontawesome.com/releases/v6.7.2/fontawesome-free-6.7.2-desktop.zip" -o fa.zip
           unzip -o fa.zip -d /tmp/fa
           cp /tmp/fa/fontawesome-free-6.7.2-desktop/otfs/*.otf fonts/
 
