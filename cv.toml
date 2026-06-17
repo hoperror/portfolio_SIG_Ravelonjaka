@@ -1,6 +1,6 @@
 [cv]
 name     = "Lucas Ravelonjaka"
-headline = "Géomaticien | Webmapping & Développement SIG"
+headline = "Ingénieur Géomaticien"
 location = "Île-de-France, France (mobile)"
 keywords = ["Géomatique", "SIG", "Webmapping", "Analyse spatiale", "Bases de données spatiales"]
 email    = "lucasravelonjaka@gmail.com"
@@ -54,7 +54,6 @@ end_date   = "2026-08"
 highlights = [
   "Développement d'un *outil cartographique en ligne* pour le suivi des opérations d'aménagement | Django, PostgreSQL/PostGIS, Leaflet.js",
   "Conception d'un *portail cartographique* pour le suivi des colonies de mouettes et goélands | ArcGIS Online, Experience Builder",
-  "Veille technologique sur le passage de la cartographie 2D à la 3D pour les réseaux portuaires",
 ]
 
 [[cv.experience]]
@@ -65,8 +64,7 @@ location   = "Bobigny"
 start_date = "2024-03"
 end_date   = "2024-09"
 highlights = [
-  "Assistant chargé d'étude sur la multiculturalité et l'interculturalité en Seine-Saint-Denis",
-  "Traitement et analyse de données (Excel, R), diagnostic territorial",
+  "Assistant chargé d'étude sur la multiculturalité et l'interculturalité en Seine-Saint-Denis | Analyse territoriale, Analyse de données, Gestion de projet",
 ]
 
 [[cv.experience]]
@@ -77,7 +75,7 @@ location   = "Saint-Denis"
 start_date = "2023-06"
 end_date   = "2023-08"
 highlights = [
-  "Production cartographique et traitement de données géographiques pour l'observatoire territorial",
+  "Collecte de données des aires de jeux de Plaine Commune dans le cadre du projet LudoSI | Levé GPS, ArcGIS Field Maps, ArcGIS Pro/Online",
 ]
 
 [[cv.education]]
