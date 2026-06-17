@@ -14,6 +14,11 @@
   phone: cd.at("phone", default: none),
   address: cd.at("address", default: none),
   profiles: cd.at("profiles", default: none),
+  profiles-config: (
+    LinkedIn: (icon: "linkedin", url-base: "https://linkedin.com/in/"),
+    GitHub: (icon: "github", url-base: "https://github.com/"),
+    Portfolio: (icon: "globe", url-base: "https://hoperror.github.io/portfolio_SIG_Ravelonjaka/#"),
+  ),
   summary: cd.at("summary", default: none),
   experience: cd.at("experience", default: none),
   education: cd.at("education", default: none),

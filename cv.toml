@@ -10,7 +10,7 @@ address  = ["Île-de-France", "France"]
 values  = ["Rigueur", "Curiosité technique", "Esprit d'équipe", "Engagement environnemental"]
 hobbies = ["Volleyball, basketball", "Lecture (romans historiques)", "Responsable EEUdF (BAFA)", "Secouriste en santé mentale (PSSM)"]
 
-summary = "Géomaticien spécialisé en webmapping et développement SIG, fort de deux ans d'expérience en apprentissage au service de la gestion portuaire. Je maîtrise l'ensemble de la chaîne de la donnée géographique, de l'administration de bases de données spatiales au déploiement d'outils cartographiques interactifs. Disponible dès septembre 2026."
+summary = "Géomaticien spécialisé en webmapping et développement SIG, fort de deux ans d'expérience en apprentissage au service de la gestion portuaire. Je maîtrise l'ensemble de la chaîne de la donnée géographique, de l'administration de bases de données spatiales au déploiement d'outils cartographiques interactifs."
 
 [[cv.profiles]]
 network  = "LinkedIn"
@@ -19,6 +19,10 @@ username = "lucasravelonjaka"
 [[cv.profiles]]
 network  = "GitHub"
 username = "hoperror"
+
+[[cv.profiles]]
+network  = "Portfolio"
+username = "Mon portfolio"
 
 [[cv.skills]]
 group = "Web SIG"
