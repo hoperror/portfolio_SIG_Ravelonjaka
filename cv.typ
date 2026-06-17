@@ -3,7 +3,7 @@
 #let cd = toml("cv.toml").cv
 
 // Corriger les puces de liste
-#set list(marker: [•])
+#set list(marker: [▸])
 
 #show: cv.with(
   name: cd.name,
