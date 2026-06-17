@@ -110,7 +110,7 @@ _build/
 book-clean/
 
 # CV generation
-cv.typ
+#cv.typ
 cv.pdf
 fonts/
 
