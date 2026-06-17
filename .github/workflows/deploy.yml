@@ -46,10 +46,26 @@ jobs:
       - name: Setup Typst
         uses: typst-community/setup-typst@v5
 
+      # - name: Download fonts
+      #   run: |
+      #     mkdir -p fonts
+      #     # Source Sans 3 (body font)
+      #     curl -fSL "https://github.com/adobe-fonts/source-sans/releases/download/3.052R/OTF-source-sans-3.052R.zip" -o source-sans.zip
+      #     unzip -o source-sans.zip -d /tmp/ssp
+      #     find /tmp/ssp -name "*.otf" -exec cp {} fonts/ \;
+      #     # Font Awesome 6 (icons)
+      #     curl -fSL "https://use.fontawesome.com/releases/v6.7.2/fontawesome-free-6.7.2-desktop.zip" -o fa.zip
+      #     unzip -o fa.zip -d /tmp/fa
+      #     cp /tmp/fa/fontawesome-free-6.7.2-desktop/otfs/*.otf fonts/
+
       - name: Download fonts
         run: |
           mkdir -p fonts
-          # Source Sans 3 (body font)
+          # IBM Plex Sans (body font for nabcv)
+          curl -fSL "https://github.com/IBM/plex/releases/download/v6.4.0/IBM-Plex-Sans.zip" -o ibm-plex.zip
+          unzip -o ibm-plex.zip -d /tmp/ibm
+          find /tmp/ibm -name "*.otf" -exec cp {} fonts/ \;
+          # Source Sans (fallback)
           curl -fSL "https://github.com/adobe-fonts/source-sans/releases/download/3.052R/OTF-source-sans-3.052R.zip" -o source-sans.zip
           unzip -o source-sans.zip -d /tmp/ssp
           find /tmp/ssp -name "*.otf" -exec cp {} fonts/ \;
@@ -58,11 +74,11 @@ jobs:
           unzip -o fa.zip -d /tmp/fa
           cp /tmp/fa/fontawesome-free-6.7.2-desktop/otfs/*.otf fonts/
 
-      - name: Generate CV Typst source
-        run: python generate_cv.py
+      # - name: Generate CV Typst source
+      #   run: python generate_cv.py
 
       - name: Compile CV PDF
-        run: typst compile cv.typ cv.pdf --font-path ./fonts --ignore-system-fonts
+        run: typst compile cv.typ cv.pdf --font-path ./fonts #--ignore-system-fonts
 
       - name: Build HTML Assets
         # Remove BASE_URL if using a custom domain (CNAME)
