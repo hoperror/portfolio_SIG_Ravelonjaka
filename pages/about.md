@@ -124,5 +124,5 @@ Je suis actuellement à la recherche d'un poste de géomaticien à partir de sep
 ## Centres d'intérêt
 
 - Sport : volleyball, basketball, tennis de table
-- Lecture : roman historique, vulgarisation scientifique
-- Engagement bénévole : responsable scout EEUdF (BAFA), secouriste en santé mentale (certificat PSSM)
+- Lecture : roman historique
+- Engagement bénévole : responsable scout EEUdF (BAFA), secouriste en santé mentale (PSSM)

@@ -1,0 +1,111 @@
+[cv]
+name     = "Lucas Ravelonjaka"
+headline = "Géomaticien | Webmapping & Développement SIG"
+location = "Île-de-France, France (mobile)"
+keywords = ["Géomatique", "SIG", "Webmapping", "Analyse spatiale", "Bases de données spatiales"]
+email    = "lucasravelonjaka@gmail.com"
+phone    = "+33 6 63 80 74 97"
+address  = ["Île-de-France", "France"]
+
+values  = ["Rigueur", "Curiosité technique", "Esprit d'équipe", "Engagement environnemental"]
+hobbies = ["Volleyball, basketball", "Lecture (romans historiques)", "Responsable EEUdF (BAFA)", "Secouriste en santé mentale (PSSM)"]
+
+summary = "Géomaticien spécialisé en webmapping et développement SIG, fort de deux ans d'expérience en apprentissage au service de la gestion portuaire. Je maîtrise l'ensemble de la chaîne de la donnée géographique, de l'administration de bases de données spatiales au déploiement d'outils cartographiques interactifs. Disponible dès septembre 2026."
+
+[[cv.profiles]]
+network  = "LinkedIn"
+username = "lucasravelonjaka"
+
+[[cv.profiles]]
+network  = "GitHub"
+username = "hoperror"
+
+[[cv.skills]]
+group = "Web SIG"
+items = "HTML/CSS, JavaScript, PHP, Django, Leaflet.js"
+
+[[cv.skills]]
+group = "Analyse & traitement"
+items = "Python (pandas, geopandas, folium, jupyter), R (sf, mapsf, rmarkdown)"
+
+[[cv.skills]]
+group = "Bases de données"
+items = "PL/SQL, PostgreSQL, PostGIS, SQLite"
+
+[[cv.skills]]
+group = "Logiciels SIG"
+items = "QGIS, ArcGIS Pro, ArcGIS Online, Experience Builder, FME, Geoconcept"
+
+[[cv.skills]]
+group = "Gestion de projet"
+items = "Scrum, Agile, Notion, Wrike"
+
+[[cv.skills]]
+group = "Langues"
+items = ["Français (Bilingue)", "Malgache (Langue maternelle)", "Anglais (B1)"]
+
+[[cv.experience]]
+company    = "Port de Boulogne-sur-Mer—Calais"
+position   = "Géomaticien apprenti"
+summary    = "Service SIG (SSIG), Région Hauts-de-France"
+location   = "Lille/Calais"
+start_date = "2024-08"
+end_date   = "2026-08"
+highlights = [
+  "Développement d'un *outil cartographique en ligne* pour le suivi des opérations d'aménagement | Django, PostgreSQL/PostGIS, Leaflet.js",
+  "Conception d'un *portail cartographique* pour le suivi des colonies de mouettes et goélands | ArcGIS Online, Experience Builder",
+  "Veille technologique sur le passage de la cartographie 2D à la 3D pour les réseaux portuaires",
+]
+
+[[cv.experience]]
+company    = "Conseil départemental de la Seine-Saint-Denis"
+position   = "Chargé d'étude stagiaire"
+summary    = "Direction des données, des études et des connaissances"
+location   = "Bobigny"
+start_date = "2024-03"
+end_date   = "2024-09"
+highlights = [
+  "Assistant chargé d'étude sur la multiculturalité et l'interculturalité en Seine-Saint-Denis",
+  "Traitement et analyse de données (Excel, R), diagnostic territorial",
+]
+
+[[cv.experience]]
+company    = "Observatoire EPT Plaine Commune"
+position   = "Géomaticien"
+summary    = "Stage géomatique"
+location   = "Saint-Denis"
+start_date = "2023-06"
+end_date   = "2023-08"
+highlights = [
+  "Production cartographique et traitement de données géographiques pour l'observatoire territorial",
+]
+
+[[cv.education]]
+company    = "Master Géomatique, Géodécisionnel, Géomarketing et Multimédia (G2M)"
+summary    = "Université Paris 8 Vincennes Saint-Denis"
+location   = "Saint-Denis"
+start_date = "2024-09"
+end_date   = "2026-06"
+highlights = [
+  "Spécialisation en webmapping, analyse spatiale et développement SIG",
+]
+
+[[cv.education]]
+company    = "Licence Géographie et Aménagement"
+summary    = "CY Paris Université, Université Sorbonne Paris 4"
+location   = "Paris / Cergy"
+start_date = "2021-09"
+end_date   = "2024-06"
+highlights = [
+  "Formation en géographie, aménagement du territoire et initiation aux SIG",
+]
+
+[[cv.education]]
+company    = "Licence Sciences de l'éducation, spé. Histoire-Géographie"
+summary    = "École Normale Supérieure, Antananarivo, Madagascar"
+location   = "Antananarivo"
+start_date = "2017-09"
+end_date   = "2020-06"
+highlights = [
+  "Découverte de la géographie numérique et des SIG",
+]

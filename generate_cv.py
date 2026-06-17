@@ -147,18 +147,25 @@ def gen_sidebar_content(about):
     lines = []
 
     # --- Profil ---
-    m = re.search(r"^#\s+.+$", about, re.MULTILINE)
-    if m:
-        start = m.end()
-        end_m = re.search(r"^(?:##\s|---\s*$)", about[start:], re.MULTILINE)
-        if end_m:
-            profil_text = about[start : start + end_m.start()].strip()
-        else:
-            profil_text = about[start:].strip()
-        if profil_text:
-            lines.append("  = Profil")
-            lines.append(f" {typst_escape(profil_text)}")
-            lines.append("")
+    # m = re.search(r"^#\s+.+$", about, re.MULTILINE)
+    # if m:
+    #     start = m.end()
+    #     end_m = re.search(r"^(?:##\s|---\s*$)", about[start:], re.MULTILINE)
+    #     if end_m:
+    #         profil_text = about[start : start + end_m.start()].strip()
+    #     else:
+    #         profil_text = about[start:].strip()
+    #     if profil_text:
+    #         lines.append("  = Profil")
+    #         lines.append(f" {typst_escape(profil_text)}")
+    #         lines.append("")
+    
+    # --- Profil ---
+    lines.append("  = Profil")
+    lines.append('  #set par(justify: false)')
+    lines.append('  #text(size: 9pt)[Géomaticien spécialisé en webmapping et développement SIG, fort de deux ans d\'expérience au service de la gestion portuaire. Je maîtrise l\'ensemble de la chaîne de la donnée géographique, de l\'administration de bases de données spatiales au déploiement d\'outils cartographiques interactifs. Disponible dès septembre 2026.]')
+    lines.append('  #set par(justify: true)')
+    lines.append("")
 
     # --- Contact ---
     lines.append("  = Contact")
